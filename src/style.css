@@ -1,0 +1,92 @@
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: black;
+  padding: 2rem;
+  font-size: 1rem;
+  font-family: "Koulen";
+}
+
+#grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#left-side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-family: "Lobster Two";
+  font-size: 3.5rem;
+}
+
+.control {
+  display: flex;
+  flex-direction: column;
+  max-width: 20rem;
+  margin: 5px 0 5px 0;
+}
+
+.control input {
+  padding: 0.5rem;
+}
+
+#datetime {
+  display: flex;
+  max-width: 20rem;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#submit {
+  width: 20rem;
+  background: rgb(0, 0, 0);
+  color: white;
+  padding: 0.5rem;
+  font-family: "Koulen";
+  font-size: 1rem;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 5rem;
+}
+
+#submit:hover {
+  background: rgb(53, 51, 51);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+  max-width: 20rem;
+  background-color: rgba(0, 255, 255, 0.858);
+  border: 3px solid black;
+}
+
+#delete-btn {
+  margin-top: 8px;
+  background: red;
+  color: white;
+  padding: 0.5rem;
+  font-family: "Koulen";
+  font-size: 1rem;
+  border-radius: 10px;
+  border: none;
+}
+
+.identifier {
+  font-size: 2rem;
+}
+
+.card-name {
+  font-family: "Lobster Two";
+}
+
+.other-data {
+  display: flex;
+  justify-content: space-between;
+}
